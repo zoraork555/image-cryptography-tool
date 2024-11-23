@@ -6,3 +6,8 @@ main.c calls the functions created in image.c
 image.c contains all functions needed for encoding and decoding pgm images  
 image.h is the header file for image.c  
 a.exe is the compiled executable for this project  
+all image files have encoded messages for testing the program
+
+## Running 
+> ./a encode {message} {image-file} {new-image-file}  
+> ./a decode {image-file}  
